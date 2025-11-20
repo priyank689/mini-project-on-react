@@ -119,8 +119,32 @@ const App = () => {
             style={{ color: "black", fontSize: "2rem" }}
           ></i>
         </div>
+      </div>
 
-        {/* <input
+      <div
+        className="searchbox"
+        style={{
+          position: "absolute",
+          inset: 0,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "white",
+          width: "70%",
+          borderRadius: "10rem",
+          height: "8rem",
+          margin: "21rem  0 0 15rem",
+        }}
+      >
+        <i
+          class="fa-solid fa-magnifying-glass"
+          style={{ color: "black", fontSize: "2rem", marginRight: "60rem" }}
+        ></i>
+        <i
+          className="fa-brands fa-google"
+          style={{ color: "black", fontSize: "2rem" }}
+        ></i>
+        <input
           type="text"
           placeholder="Search  Google or type a URL"
           style={{
@@ -136,7 +160,7 @@ const App = () => {
             margin: "20rem  0 0 15rem",
             textAlign: "center",
           }}
-        /> */}
+        />
       </div>
     </>
   );
